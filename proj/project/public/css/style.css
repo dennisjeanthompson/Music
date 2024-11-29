@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-section, .add-section, .tracks-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.date-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.date-filters div {
+    flex: 1;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.add-button {
+    background-color: #2ecc71;
+}
+
+.add-button:hover {
+    background-color: #27ae60;
+}
+
+.track-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.track-info {
+    margin-bottom: 10px;
+}
+
+.track-name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.track-description {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.track-date {
+    color: #95a5a6;
+    font-size: 0.8em;
+}
+
+.track-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button {
+    background-color: #f1c40f;
+}
+
+.edit-button:hover {
+    background-color: #f39c12;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
